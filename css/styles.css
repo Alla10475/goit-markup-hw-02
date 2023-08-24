@@ -50,7 +50,7 @@ body {
 }
 
 .hero-section {
-    color: var(--navyblue, #2E2F42);
+    background: var(--navyblue, #2E2F42);
 }
 
 .hero-title {
@@ -106,6 +106,8 @@ body {
 } 
 
 .team-card {
+    width: 264px;
+    height: 380px;
     border-radius: 0px 0px 4px 4px;
     background: var(--white, #FFF);
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
@@ -124,6 +126,13 @@ body {
     text-align: center;
     line-height: 1.5;
     letter-spacing: 0.32px;
+}
+
+.project-card {
+    width: 360px;
+    height: 420px;
+    border: 1px solid var(--cornflower, #E7E9FC);
+    background: var(--white, #FFF);
 }
 
 .project-title {
